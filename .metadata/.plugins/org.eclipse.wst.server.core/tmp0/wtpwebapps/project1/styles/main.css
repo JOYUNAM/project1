@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration : none; /* 밑줄 제거 */
+}
+.title1 {
+	font-size : 30px;
+    color: black;
+    text-align: center;
+    padding: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: 900 !important; /* !important를 사용하려면 한 번만 작성 */
+}
+.title {
+	font-size : 30px;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0.9, 0, 0.9);
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-weight: 900 !important; /* !important를 사용하려면 한 번만 작성 */
+}
+.content {
+	color : black;
+	
+    position: relative; /* 부모 요소로 설정 */
+    width: 100%; /* 콘텐츠의 실제 너비에 맞춤 (필요에 따라 조정 가능) */
+    min-height: 900px; /* 콘텐츠 최소 높이 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+}
+.content-background {
+	background-color: #fefadd;
+    position: absolute;
+    font-weight: bold;
+    font-size : 20px;
+    top: 0;
+    left: 0;
+    width: 100%; /* `.content` 너비에 맞춤 */
+    height: 100%; /* `.content` 높이에 맞춤 */
+    background-image: url('../image/bannerr.jpg');
+    background-size: contain; /* `.content` 크기에 맞춰 조정 */
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; /* 다른 요소보다 뒤로 배치 */
+}
+
+.left-align {
+    text-align: left; /* 왼쪽 정렬 */
+    margin-left : 200px;
+}
+
+.center-align {
+    text-align: center; /* 가운데 정렬 */
+}
+
+.right-align {
+    text-align: right; /* 오른쪽 정렬 */
+    margin-right: 190px;
+}
+.content2 table {
+	width: auto;
+	margin: 0 auto;
+}
+.content2 table th, td {
+	border: 1px solid black;
+
+}
+.content table.btn_group {
+	text-align: center;
+}
+.content2 {
+	color:white;
+	background-color:black;
+	background-position: center;
+}
+
+.content3 {
+	color:white;
+	background-color:black;
+	background-position: center;
+}
+.content3 table {
+	width: auto;
+	margin: 0 auto;
+}
+.content3 table th, td {
+	
+	vertical-align : top;
+	border: 1px solid black ;	
+	
+}
+
+td {
+    width:810px; /* 셀의 가로 크기를 일정하게 설정 (필요에 따라 조정 가능) */
+    min-height: 100px; /* 셀의 최소 높이 설정 */
+    overflow: hidden; /* 넘치는 텍스트를 숨김 */
+    word-wrap: break-word; /* 단어 줄바꿈 */
+}
+
+.content3 table.btn_group {
+	text-align: center;
+}
+
+.character_name {
+	min-height: 365px;
+	width: 300px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5; /* 줄 간격을 일정하게 유지 */
+    word-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
+}
+
+.red-text{
+	color: #d91014; 
+}
+.blue-text{
+	color:#7FFFD4;
+}

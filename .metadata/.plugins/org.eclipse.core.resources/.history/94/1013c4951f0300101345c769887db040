@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.logo {
+	color: black;
+	text-align: center;
+	background-image: url('../image/close-up-black-marble-textured-background.jpg'); /* 이미지 경로 */
+	background-size: auto 100px; /* 높이는 100px로 유지, 가로 크기는 자동 */
+	background-repeat: repeat-x; /* 가로로 반복 */
+	background-position: center; /* 중앙 정렬 */
+	font-weight: bold;
+	font-size: 5px 0;
+}
+/* 로고의 a 태그는 검은색으로 유지 */
+.logo a {
+	color: black;
+	font-weight: bold;
+}
+
+.logo2 {
+	background-color: black; /* 배경을 가로로 꽉 채움 */
+	width: 100%; /* 가로 전체 확장 */
+	height: 150px; /* 원하는 높이 */
+	display: flex; /* Flexbox 사용 */
+	justify-content: center; /* 가로 정렬 (가운데) */
+	align-items: center; /* 세로 정렬 (가운데) */
+}
+
+.logo2 a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo2 img {
+	max-height: 100%; /* 부모 요소 안에서 크기 조정 */
+	max-width: 100%; /* 너비 초과 방지 */
+}
+
+.logo3 {
+	background-color: white; /* 배경을 가로로 꽉 채움 */
+	width: 100%; /* 가로 전체 확장 */
+	height: auto; /* 원하는 높이 */
+	min-height: 150px; /* 최소 높이 설정 */ max-height : 350px; /* 최대 높이 설정 */
+	display: flex; /* Flexbox 사용 */
+	justify-content: center; /* 가로 정렬 (가운데) */
+	align-items: center;
+	padding: 30px 0; /* 위아래 여백 추가 */
+}
+
+.logo3 a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo3 img {
+	width: auto; /* 원본 비율 유지 */
+	height: auto; /* 원본 비율 유지 */
+	max-width: 80%; /* 부모 요소 크기에 맞춰 줄어들도록 설정 */
+	max-height: 100%; /* 부모 요소 높이에 맞게 자동 축소 */
+	object-fit: contain; /* 원본 비율 유지하면서 크기 맞추기 */
+	flex-shrink: 1; /* Flexbox 내부에서 이미지가 축소될 수 있도록 설정 */
+}
+.logo4 {
+	background-color : black;
+	width : 100%;
+	height : 100%;
+	display : flex;
+	justify-content : center; 
+	align-items : center;
+	padding : 30px 0;
+}
+.logo4 img{
+	width : auto; /* 원본 비율 유지 */
+	height : auto; /* 원본 비율 유지 */
+	max-width : 330px; /* 부모 요소 크기에 맞춰 줄어들도록 설정 */
+	max-height : 50%; /* 부모 요소 높이에 맞게 자동 축소 */
+	object-fit : contain; /* 원본 비율 유지하면서 크기 맞추기 */
+	flex-shrink : 1;
+}

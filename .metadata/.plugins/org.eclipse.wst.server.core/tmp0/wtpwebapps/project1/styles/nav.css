@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+.nav {
+	display: flex; /* 네비게이션 바 내부 요소를 가로 정렬 */
+	justify-content: left; /* 왼쪽 정렬 */
+	background-color: black;
+}
+
+.nav li {
+	color: gold;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-weight: bold;
+	margin-right: 33px;
+}
+
+.nav li:last-child {
+	margin-right: 0; /*마지막 요소는 간격 제거용*/
+}
+
+/* 네비게이션 바의 a 태그를 gold 색상으로 설정 */
+.nav a {
+	color: gold;
+	font-weight: bold;
+}
+
+
+
+
+
+.nav3 {
+	display: flex; /* 네비게이션 바 내부 요소를 가로 정렬 */
+	justify-content: left; /* 왼쪽 정렬 */
+	background-color: black;
+}
+
+.nav3 li {
+	color: #4169E1	;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-weight: bold;
+	margin-right: 33px;
+}
+
+.nav3 li:last-child {
+	margin-right: 0; /*마지막 요소는 간격 제거용*/
+}
+.nav3 a {
+	color: #0074D9;
+	font-weight: bold;
+}
+
+/*---------rdr--------------------*/
+
+.nav2 {
+	display: flex; /* 네비게이션 바 내부 요소를 가로 정렬 */
+	justify-content: left; /* 왼쪽 정렬 */
+	background-color: black;
+}
+
+.nav2 li {
+	color: #FF0000;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-weight: bold;
+	margin-right: 33px;
+}
+
+.nav2 li:last-child {
+	margin-right: 0; /*마지막 요소는 간격 제거용*/
+}
+
+/* 네비게이션 바의 a 태그를 붉은 색상으로 설정 */
+.nav2 a {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+/*--------BF------------*/
+.nav4 {
+	display: flex; /* 네비게이션 바 내부 요소를 가로 정렬 */
+	justify-content: left; /* 왼쪽 정렬 */
+	background-color: black;
+}
+
+.nav4 li {
+	color: #21ffe0;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-weight: bold;
+	margin-right: 33px;
+}
+
+.nav4 li:last-child {
+	margin-right: 0; /*마지막 요소는 간격 제거용*/
+}
+
+/* 네비게이션 바의 a 태그를 붉은 색상으로 설정 */
+.nav4 a {
+	color: #21ffe0;
+	font-weight: bold;
+}

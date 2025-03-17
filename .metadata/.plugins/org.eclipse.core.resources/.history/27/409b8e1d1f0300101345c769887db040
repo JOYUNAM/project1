@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.footer {
+	color: black;
+	text-align: center;
+	background-image:
+		url('../image/close-up-black-marble-textured-background.jpg'); /* 이미지 경로 */
+	background-size: auto 100px; /* 높이는 100px로 유지, 가로 크기는 자동 */
+	background-repeat: repeat-x; /* 가로로 반복 */
+	background-position: center; /* 중앙 정렬 */
+	font-weight: bold;
+	padding: 15px 0;
+}
+
+
+.footer2 {
+	color: gold;
+	text-align: center;
+	background-color: black;
+	background-size: auto 100px; /* 높이는 100px로 유지, 가로 크기는 자동 */
+	/* background-repeat: repeat-x; 가로로 반복 */
+	background-position: center; /* 중앙 정렬 */
+	font-weight: bold;
+	font-size: 5px 0;
+}
+
+
+
+.footer3{
+	color: white;
+	text-align : right;
+	width : auto;
+	height : auto;
+	background-color : black;
+	background-image: url('/project01/image/Red/red-dead-redemption-75746.png');
+    background-size: contain; /* 원본 비율 유지 */
+    background-repeat: no-repeat; /* 반복 제거 */
+    background-position: center; /* 중앙 정렬 */
+   	padding: 20px 20px;
+}
+
+	
+	
