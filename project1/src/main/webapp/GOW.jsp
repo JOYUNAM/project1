@@ -24,7 +24,6 @@
 			<ul class="nav3">
 				<li><a href="GOW.jsp">God of War</a></li>
 				<li><a href="UFC-4.jsp">UFC-4</a></li>
-				<li><a href="BF.jsp">Battle Field</a></li>
 				<li><a href="RDR.jsp">Red Dead Redemption</a></li>
 				<li><a href="Horizon.jsp">Horizon</a></li>
 				<li><a href="index.jsp">Home [홈으로]</a></li>
